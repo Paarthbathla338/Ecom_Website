@@ -22,4 +22,7 @@ def search(request):
 def checkout(request):
     return HttpResponse("We are at checkout")
 
+def exercise(request):
+    return render(request,'shop1/ex.html')
+
 
